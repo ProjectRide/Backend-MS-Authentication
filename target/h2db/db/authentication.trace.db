@@ -1,0 +1,8 @@
+2016-12-01 09:24:57 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "DATABASECHANGELOGLOCK" nicht gefunden
+Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-192]
+2016-12-01 09:24:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Tabelle "JHI_USER" nicht gefunden
+Table "JHI_USER" not found; SQL statement:
+ALTER TABLE PUBLIC.user_extension ADD CONSTRAINT fk_user_extension_user_id FOREIGN KEY (user_id) REFERENCES PUBLIC.jhi_user (id) [42102-192]
